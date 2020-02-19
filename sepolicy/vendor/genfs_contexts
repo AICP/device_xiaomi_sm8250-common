@@ -29,6 +29,9 @@ genfscon sysfs /class/power_supply/battery/capacity u:object_r:sysfs_battery_sup
 
 genfscon proc /last_kmsg u:object_r:proc_last_kmsg:s0
 
+# Touchpanel
+genfscon sysfs /touchpanel                                                      u:object_r:sysfs_touchpanel:s0
+
 # Wakeup source stats
 genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/0306_02.01.00/wakeup u:object_r:sysfs_wakeup:s0
