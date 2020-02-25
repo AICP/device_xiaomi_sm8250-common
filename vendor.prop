@@ -111,6 +111,9 @@ vendor.voice.path.for.pcm.voip=true
 wifi.aware.interface=wifi-aware0
 ro.vendor.sre=1
 
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+
 # Pps Control
 persist.vendor.pps.disallowed=1
 persist.vendor.hvdcp_opti.disallowed=1
