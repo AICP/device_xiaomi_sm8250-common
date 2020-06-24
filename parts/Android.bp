@@ -19,6 +19,7 @@ android_app {
         "androidx.preference_preference",
         "AicpGear-preference",
         "AicpGear-util",
+        "SettingsLib",
     ],
 
     optimize: {
