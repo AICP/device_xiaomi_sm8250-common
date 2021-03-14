@@ -15,6 +15,10 @@ android_app {
 
     static_libs: [
         "com.aicp.settings.resources",
+        "androidx.core_core",
+        "androidx.preference_preference",
+        "AicpGear-preference",
+        "AicpGear-util",
     ],
 
     optimize: {
