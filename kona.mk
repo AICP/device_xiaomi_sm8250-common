@@ -179,7 +179,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.kona \
     android.hardware.lights-service.qti
-    
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm

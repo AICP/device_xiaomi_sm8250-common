@@ -222,6 +222,21 @@
         <fqname>@1.0::IdpmQmi/dpmQmiService</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.lineage.livedisplay</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IDisplayModes</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IPictureAdjustment</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.0::IDisplayModes/default</fqname>
+        <fqname>@2.0::IPictureAdjustment/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.nxp.hardware.nfc</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
@@ -812,19 +827,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IBatteryLife/default</fqname>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.lineage.livedisplay</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IDisplayModes</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IPictureAdjustment</name>
-            <instance>default</instance>
-        </interface>
     </hal>
     <hal format="hidl">
         <name>vendor.dolby.hardware.dms</name>
