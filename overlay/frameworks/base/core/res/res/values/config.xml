@@ -314,7 +314,23 @@
     
         <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently in hardware. -->
      <bool name="config_setColorTransformAccelerated">true</bool>
-     
+	 
+    <!-- Should we filter any display modes which are unampped? -->
+    <bool name="config_filterDisplayModes">true</bool>
+	
+    <!-- Display mode remapping table.
+         If the mode names returned by the backend do not match
+         the predefined and translated strings in the Settings
+         app, they can be remapped here. The format is
+         "oldname:newname", one per entry. -->
+    <string-array name="config_displayModeMappings" translatable="false">
+        <item>standard:standard</item>
+        <item>warm:reading</item>
+        <item>vivid:saturated</item>
+        <item>expert_srgb:srgb</item>
+        <item>expert_dcip3:dci_p3</item>
+    </string-array>
+	
          <!-- List supported color modes. -->
     <array name="config_availableColorModes">
         <item>@null</item>
