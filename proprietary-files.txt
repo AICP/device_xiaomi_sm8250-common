@@ -351,6 +351,7 @@ vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
+vendor/lib64/libdisplayconfig.qti.so
 vendor/lib/libdpps.so
 vendor/lib64/libdpps.so
 
