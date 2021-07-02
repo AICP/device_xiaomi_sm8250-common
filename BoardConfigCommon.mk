@@ -195,6 +195,10 @@ endif
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Security patch level
+BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
+VENDOR_SECURITY_PATCH := 2021-04-01
+
 # Sensors
 USE_SENSOR_MULTI_HAL := true
 
@@ -233,9 +237,6 @@ ifeq ($(BOARD_BOOT_HEADER_VERSION),3)
 PRODUCT_COPY_FILES += \
 	$(COMMON_PATH)/rootdir/etc/fstab_ac.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 endif
-
-#VendorSecurityPatch
-VENDOR_SECURITY_PATCH := 2021-04-01
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
