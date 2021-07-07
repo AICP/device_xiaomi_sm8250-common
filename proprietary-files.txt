@@ -298,18 +298,19 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
 # Dolby
--system_ext/priv-app/MotoDolbyV3/MotoDolbyV3.apk|c25de23bcf6441da256b7b6ba46cf6372f5dd7b1
-system_ext/etc/permissions/com.motorola.dolby.dolbyui.xml|d5c25b2522094346257a5ff0f4317c992b54d1fc
-system_ext/etc/permissions/com.motorola.motosignature.xml|efb406e4db9b9dddedd6fb68ad678153d3089417
-system_ext/etc/permissions/moto-checkin.xml|39d1beed1802a1b3bba452cfc51d3ac0bf922614
-system_ext/etc/permissions/privapp-com.dolby.daxservice.xml|854a54ffa904eb69bf439a7493f6f805a091c0f6
-system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|2092151d56b707f3fe0ef68196906b213753d46e
-system_ext/etc/sysconfig/config-com.motorola.dolby.dolbyui.xml|66ae80afa96e2e04433c2f4b3e92b6e20d64f2ad
-system_ext/framework/com.motorola.motosignature.jar|7873af6b1243e706792b3c0a9e34037c50e62f8a
-system_ext/framework/moto-checkin.jar|97daf710e97d02c7ec2aab58521949b7d32c9a2b
+-priv-app/MotoDolbyV3/MotoDolbyV3.apk|c25de23bcf6441da256b7b6ba46cf6372f5dd7b1
+-app/MotoSignatureApp/MotoSignatureApp.apk|1f377b7614899bc2ae649b27558c6313
+etc/permissions/com.motorola.dolby.dolbyui.xml|d5c25b2522094346257a5ff0f4317c992b54d1fc
+etc/permissions/com.motorola.motosignature.xml|efb406e4db9b9dddedd6fb68ad678153d3089417
+etc/permissions/moto-checkin.xml|39d1beed1802a1b3bba452cfc51d3ac0bf922614
+etc/permissions/privapp-com.dolby.daxservice.xml|854a54ffa904eb69bf439a7493f6f805a091c0f6
+etc/sysconfig/config-com.dolby.daxservice.xml|2092151d56b707f3fe0ef68196906b213753d46e
+etc/sysconfig/config-com.motorola.dolby.dolbyui.xml|66ae80afa96e2e04433c2f4b3e92b6e20d64f2ad
+-framework/com.motorola.motosignature.jar|7873af6b1243e706792b3c0a9e34037c50e62f8a
+-framework/moto-checkin.jar|97daf710e97d02c7ec2aab58521949b7d32c9a2b
 system_ext/lib/libeffects.so|43293e1d22e9495113cdd62f3512a5136bf5ae36
 system_ext/lib64/libeffects.so|732af106b4443086d90bf39a6ac545f190093801
--system_ext/priv-app/daxService/daxService.apk|94d51b9b0a130d85b16054dda1b05afebd9e4965
+-priv-app/daxService/daxService.apk|94d51b9b0a130d85b16054dda1b05afebd9e4965
 vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service|7207a97fd3f00c854be4e4ddee98c881c61c2266
 vendor/etc/dolby/dax-default.xml|7161461c833cfe6afd512bf1d5277d933394ddde
 vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc|421e752eb65f57d131a3313a42abf830
