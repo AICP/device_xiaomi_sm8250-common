@@ -33,4 +33,3 @@ ro.opa.eligible_device=true
 ro.com.google.gmsversion=11_202102
 ro.com.google.acsa=true
 
-ro.config.avoid_gfx_accel=true
