@@ -4,7 +4,12 @@ ro.config.vc_call_vol_steps=7
 debug.stagefright.omx_default_rank.sw-audio=16
 ro.control_privapp_permissions=log
 
-#Camera Support
+# Blur
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+
+# Camera Support
 vendor.camera.aux.packagelist=org.lineageos.snap,com.google.android.GoogleCamera
 ro.control_privapp_permissions=log
 
