@@ -166,6 +166,9 @@ on boot
     # Touch Sampling Rate
     chown system system /sys/devices/virtual/touch/touch_dev/bump_sample_rate
     chmod 0664 /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+    
+on property:sys.boot_completed=1
+    write /sys/class/thermal/thermal_message/sconfig 10
 
 on property:persist.vendor.sys.fp.fod.large_field=1
     write sys/bus/i2c/devices/3-0049/fod_area 1
